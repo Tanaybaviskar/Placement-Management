@@ -1,0 +1,107 @@
+/* General Dashboard Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #2b3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Profile Section */
+.profile {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Job Application Section */
+.job-application {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-application h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.job-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.job-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.job-card p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.apply-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.apply-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #2b3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

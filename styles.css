@@ -1,0 +1,104 @@
+/* Custom Styles for the Login Page */
+
+/* Body Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #FF6F61, #FF4F4F);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container for the Login Form */
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 32px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading Styles */
+.text-4xl {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+/* Form Styling */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* Form Labels */
+label {
+    font-size: 0.875rem;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+/* Input Fields Styling */
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Focused Input Fields */
+input:focus {
+    border: 2px solid #FF4F4F;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 79, 79, 0.5);
+}
+
+/* Button Styling */
+button {
+    background-color: #FF4F4F;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF6F61;
+}
+
+/* Footer Styling */
+footer {
+    font-size: 0.875rem;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: #FF6F61;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Back Link Styling */
+.mt-4 {
+    margin-top: 16px;
+}

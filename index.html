@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 min-h-screen flex flex-col justify-center items-center">
+
+    <div class="container text-center p-8 bg-white rounded-lg shadow-xl w-full max-w-lg">
+        <h1 class="text-4xl font-bold text-gray-800 mb-8">Welcome to the Placement Portal</h1>
+        
+        <div class="login-options space-y-4">
+            <a href="login.php?role=student" class="btn block py-3 px-6 text-lg text-white bg-blue-500 rounded-md hover:bg-blue-600 transition duration-300 ease-in-out">
+                Student Login
+            </a>
+            <a href="login.php?role=company" class="btn block py-3 px-6 text-lg text-white bg-green-500 rounded-md hover:bg-green-600 transition duration-300 ease-in-out">
+                Company Login
+            </a>
+            <a href="login.php?role=admin" class="btn block py-3 px-6 text-lg text-white bg-purple-500 rounded-md hover:bg-purple-600 transition duration-300 ease-in-out">
+                Admin Login
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
